@@ -5,12 +5,9 @@ import Product from './Product/Product';
 import useStyles from './styles';
 
 
-const products = [
-    { id: 1, name: 'Shoes', description: 'Running shoes.', price: '$5', image: 'https://picsum.photos/200/300' },
-    { id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$10', image: 'https://picsum.photos/200/300' },
-];
 
-const Products = () => {
+
+const Products = ({ products }) => {
     const classes = useStyles();
 
     return (

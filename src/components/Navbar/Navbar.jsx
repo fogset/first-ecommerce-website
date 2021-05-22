@@ -12,11 +12,7 @@ const Navbar = ({ totalItems }) => {
     const pathname = window.location.pathname;
 
     console.log("total item " + totalItems);
-    if (pathname === "/cart") {
-        console.log("we are on cart");
-    } else {
-        console.log("we are at home");
-    }
+
 
 
 
